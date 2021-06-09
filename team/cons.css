@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(whi.jpg);
+    background-size:cover;
+    
+        
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 
+{
+    font-size: 36px;
+    font-weight: 500;
+    color:black;
+
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: black;
+    
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+
+
+
+
+
+.contactFrom
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactFrom h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px; 
+}
+.btn{
+    
+    top: 50;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white; 
+    cursor: pointer;
+}
+#{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
